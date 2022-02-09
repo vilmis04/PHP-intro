@@ -1,0 +1,107 @@
+1. Write a program that prints numbers from 0 to 10. Use loop
+
+Expected input: 1_number_printer.php
+Expected output:
+0
+1
+2
+...
+9
+10
+
+
+
+2. Write a program that prints numbers lower than X which divide by 3.
+
+Expected input: 2_number_divider_by_7.php 61
+Expected output:
+3
+6
+9
+12
+...
+60
+
+3. Write a program to print numbers from X to 0 in descending order
+
+Expected input: 3_number_printer_descending.php 21
+Expected output:
+21
+20
+19
+...
+1
+0
+
+4. Write a program to print individual words from a given string. Hint. use php function 'explode' to split the string into parts
+
+Expected input: 4_string_analyzer.php 'How are you'
+Expected output:
+How
+are
+you
+
+4.1 Improve your program to print the word length next to the word.
+Note, that the string can contain numbers as well
+
+Expected input: 4_string_analyzer.php 'Quick fox jumps over the lazy dog 500 times'
+Expected output:
+Word: "Quick" Length: "5"
+Word: "fox" Length: "3"
+Word: "jumps" Length: "5"
+Word: "over" Length: "4"
+Word: "the" Length: 3
+Word: "lazy" Length: "4"
+Word: "dog" Length: "3"
+Word: "500" Length: "3"
+Word: "times" Length: "5"
+
+4.2 Improve your program to skip characters like ',', '-', '.', ';', '?'. Hint: use php function str_replace.
+
+Expected input: 4_string_analyzer.php 'Hello, how are you?'
+Expected output:
+Word: "Hello" Length: "5"
+Word: "how" Length: "3"
+Word: "are" Length: "3"
+Word: "you" Length: "3"
+
+4.3 Improve your program to order the words in alphabetic order
+
+Expected input: 4_string_analyzer.php 'Hello, how are you?'
+Expected output:
+Word: "are" Length: "3"
+Word: "Hello" Length: "5"
+Word: "how" Length: "3"
+Word: "you" Length: "3"
+
+4.4 Improve your program to allow the user to decide if the words need to be ordered alphabetically
+
+Expected input: 4_string_analyzer.php 'Hello, how are you?' true
+Expected output:
+Word: "are" Length: "3"
+Word: "Hello" Length: "5"
+Word: "how" Length: "3"
+Word: "you" Length: "3"
+
+Expected input: 4_string_analyzer.php 'Hello, how are you?' false
+Expected output:
+Word: "Hello" Length: "5"
+Word: "how" Length: "3"
+Word: "are" Length: "3"
+Word: "you" Length: "3"
+
+5. Write a program that takes in two numbers and a arithmetic operator and calculates the result
+
+Expected input: 5_simple_calculator.php '*' 11 3 
+Expected output:
+'11 * 3 = 33'
+
+Expected input: 5_simple_calculator.php '-' 11 3 
+Expected output:
+'11 - 3 = 8'
+
+Expected input: 5_simple_calculator.php '+' 11 3 
+Expected output:
+'11 + 3 = 4'
+
+
