@@ -1,9 +1,7 @@
 <?php
 
-$size = 5; //in case we would want to take input from the user later
-for ($i=1; $i <= $size; $i++) {
-    $numbers[] = $i;
-}
+$size = $argv[1];
+$numbers = range(1,$size);
 
 foreach ($numbers as $number) {
     foreach ($numbers as $multiplier) {
